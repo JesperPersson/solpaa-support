@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sol på! – Privatlivspolitik</title>
+<meta name="description" content="Privatlivspolitik for appen Sol på! – find ud af, om et sted ligger i sol eller skygge i hele Danmark.">
+<style>
+  :root{
+    --sol:#f5a623; --sol-dark:#e8870b; --himmel:#1b6ec2;
+    --tekst:#222; --grå:#5b5b5b; --linje:#ececec; --bg:#fffdf8;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color:var(--tekst);background:var(--bg);line-height:1.6}
+  .hero{background:linear-gradient(135deg,#ffd56b 0%,var(--sol) 55%,var(--sol-dark) 100%);
+    color:#fff;padding:64px 20px 56px;text-align:center}
+  .hero .sol{font-size:64px;line-height:1;filter:drop-shadow(0 4px 10px rgba(0,0,0,.15))}
+  .hero h1{margin:14px 0 6px;font-size:40px;letter-spacing:-.5px}
+  .hero p{margin:0;font-size:19px;opacity:.95}
+  main{max-width:760px;margin:0 auto;padding:8px 20px 64px}
+  section{padding:34px 0;border-bottom:1px solid var(--linje)}
+  section:last-child{border-bottom:0}
+  h2{font-size:24px;margin:0 0 14px;color:var(--sol-dark)}
+  h3{font-size:17px;margin:22px 0 4px}
+  a{color:var(--himmel);text-decoration:none}
+  a:hover{text-decoration:underline}
+  ul{padding-left:20px;margin:8px 0}
+  li{margin:4px 0}
+  .kort{background:#fff;border:1px solid var(--linje);border-radius:14px;padding:20px 22px;margin-top:10px}
+  .muted{color:var(--grå);font-size:14px}
+  footer{text-align:center;padding:28px 20px 48px;color:var(--grå);font-size:13px}
+  .knap{display:inline-block;background:var(--sol);color:#fff;font-weight:600;
+    padding:11px 20px;border-radius:999px;margin-top:6px}
+  .knap:hover{background:var(--sol-dark);text-decoration:none}
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="sol">☀️</div>
+    <h1>Privatlivspolitik</h1>
+    <p>Sol på! – sol eller skygge? Find ud af det – hvor som helst i Danmark.</p>
+  </header>
+
+  <main>
+    <section>
+      <p class="muted">Senest opdateret: 2. juli 2026</p>
+      <p>Din private data er din egen. <strong>Sol på!</strong> kræver ingen konto, indsamler ikke
+      personlige oplysninger for at identificere dig, bruger ikke data til markedsføring eller
+      sporing på tværs af apps – og vi sælger aldrig data videre.</p>
+
+      <h3>Placering</h3>
+      <p>Hvis du giver tilladelse, bruger appen din placering til at vise solforholdene, hvor du er.
+      Placeringen behandles på din enhed for at beregne sol og skygge og bliver ikke gemt på vores
+      servere eller delt med tredjeparter. Du kan til enhver tid slå placering fra i Indstillinger,
+      og appen kan stadig bruges ved at søge efter et sted.</p>
+
+      <h3>Kort- og højdedata</h3>
+      <p>Appen viser kort via Apple Maps (MapKit), som indlæser kortudsnit fra Apple som en del af
+      almindelig kortvisning – se <a href="https://www.apple.com/legal/privacy/" target="_blank"
+      rel="noopener">Apples privatlivspolitik</a>. Derudover henter appen offentlige bygnings- og
+      højdedata fra Datafordeleren (GeoDanmark-bygninger og Danmarks Højdemodel) for at beregne
+      skygger. Forespørgslerne indeholder kun det kortområde, der vises – aldrig personlige
+      oplysninger – og bruges alene til at besvare forespørgslen.</p>
+
+      <h3>Diagnostik (nedbrud og ydelse)</h3>
+      <p>For at gøre appen mere stabil bruger vi Google Firebase (Crashlytics og Performance
+      Monitoring) til at indsamle anonyme oplysninger om nedbrud og ydelse, fx enhedstype,
+      operativsystemversion og hvor lang tid noget tager at indlæse. Disse data er ikke knyttet til
+      din identitet og kan ikke bruges til at identificere dig personligt. Se
+      <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase
+      og privatliv</a>.</p>
+
+      <h3>Dine rettigheder</h3>
+      <p>Da appen ikke indsamler oplysninger, der kan identificere dig, ligger der ingen
+      personoplysninger hos os, som kan udleveres eller slettes. Har du spørgsmål til dine
+      rettigheder efter databeskyttelsesforordningen (GDPR), er du altid velkommen til at skrive.</p>
+
+      <h3>Børn</h3>
+      <p>Appen er ikke målrettet børn under 13 år og indsamler ikke bevidst data om dem.</p>
+
+      <h3>Ændringer</h3>
+      <p>Opdateres denne politik, offentliggør vi den nye version på denne side med en ny dato.</p>
+
+      <h3>Kontakt om privatliv</h3>
+      <div class="kort">
+        <p style="margin:.2em 0">E-mail: <a href="mailto:hello@codeswain.com">hello@codeswain.com</a></p>
+        <p class="muted">Du kan forvente svar inden for et par hverdage.</p>
+        <a class="knap" href="mailto:hello@codeswain.com?subject=Sol%20p%C3%A5!%20privatliv">Skriv om privatliv</a>
+      </div>
+    </section>
+
+    <section id="english">
+      <h2>Privacy policy (English summary)</h2>
+      <p class="muted">Last updated: 2 July 2026</p>
+      <p><strong>Sol på!</strong> requires no account and collects no information that identifies
+      you. We never sell data.</p>
+      <ul>
+        <li><strong>Location</strong> — with your permission, your location is used on-device to
+        show sun conditions where you are. It is never stored on our servers or shared. The app
+        also works without location by searching for a place.</li>
+        <li><strong>Map &amp; elevation data</strong> — maps are shown via Apple Maps (MapKit);
+        public building and elevation data is fetched from the Danish public services
+        (Datafordeleren: GeoDanmark, Danmarks Højdemodel). Requests contain only the visible map
+        area, never personal information.</li>
+        <li><strong>Diagnostics</strong> — we use Google Firebase (Crashlytics and Performance
+        Monitoring) to collect anonymous crash and performance data (e.g. device model, OS
+        version, load times). This data is not linked to your identity and is not used for
+        tracking. See <a href="https://firebase.google.com/support/privacy" target="_blank"
+        rel="noopener">Firebase Privacy</a>.</li>
+        <li><strong>Children</strong> — the app is not directed at children under 13 and does not
+        knowingly collect data about them.</li>
+      </ul>
+      <p>Questions? Contact <a href="mailto:hello@codeswain.com">hello@codeswain.com</a>.</p>
+    </section>
+
+    <section>
+      <p><a href="./">← Tilbage til support</a></p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Jesper Persson · Sol på!
+  </footer>
+</body>
+</html>
